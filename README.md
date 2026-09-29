@@ -1,17 +1,17 @@
-# Glenmark Product Child Theme
+# Odvozená šablona Glenmark Product
 
-An example of extending the [Glenmark Product parent theme](https://github.com/creanto/glenmark-product-wp-template). Keep reusable theme behavior in the parent theme and site-specific configuration, styles, templates, and PHP customizations here.
+Ukázka rozšiřování [rodičovské šablony Glenmark Product](https://github.com/creanto/glenmark-product-wp-template). Opakovaně použitelné funkce patří do rodičovské šablony; konfiguraci, styly, šablony a úpravy PHP pro konkrétní web udržujte zde.
 
-## Installation
+## Instalace
 
-Install `glenmark-product` first, then install and activate this child theme. The child theme's `Template` value in `style.css` must match the parent theme directory name.
+Nejprve nainstalujte šablonu `glenmark-product`, potom nainstalujte a aktivujte tuto odvozenou šablonu. Hodnota `Template` v souboru `style.css` musí odpovídat názvu adresáře rodičovské šablony.
 
-## Extension points
+## Možnosti rozšíření
 
-- `functions.php` registers child-theme hooks and enqueues site-specific styles.
-- `site-specific/config/theme-config.php` overrides parent theme configuration.
-- `site-specific/assets/css/site.scss` is the source for the enqueued `site.css`; commit the compiled CSS with its source.
-- `site-specific/` is the place for site-specific templates and additional PHP modules. Include PHP modules from `functions.php` explicitly.
-- `elementor-site-settings/` contains the site's Elementor settings export and manifest.
+- `functions.php` registruje hooky odvozené šablony a načítá styly pro konkrétní web.
+- `site-specific/config/theme-config.php` přepisuje konfiguraci rodičovské šablony.
+- `site-specific/assets/css/site.scss` je zdrojem načítaného souboru `site.css`; při změně uložte do Gitu zdrojový SCSS i přeložené CSS.
+- `site-specific/` slouží pro šablony a další PHP moduly konkrétního webu. PHP moduly je potřeba výslovně načíst ze souboru `functions.php`.
+- `elementor-site-settings/` obsahuje export nastavení Elementoru pro web a jeho manifest.
 
-The Kohinoor font files are not included because the available license is for personal use only. Provide fonts that are licensed for the intended use before adding `fonts.css` and its matching font files under `site-specific/assets/`.
+Soubory fontu Kohinoor nejsou součástí repozitáře, protože dostupná licence povoluje pouze osobní použití. Před přidáním souboru `fonts.css` a odpovídajících fontů do `site-specific/assets/` zajistěte licenci pro zamýšlené použití.
