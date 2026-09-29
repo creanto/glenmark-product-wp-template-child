@@ -1,0 +1,7 @@
+.DS_Store
+.vscode/
+/screenshot.psd
+/site-specific/assets/font/
+/site-specific/assets/css/fonts.css
+/site-specific/assets/css/fonts.scss
+/site-specific/assets/css/fonts.css.map

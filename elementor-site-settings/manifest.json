@@ -1,0 +1,22 @@
+{
+  "name": "cetalgen-site-settings",
+  "title": "Cetalgen Site Settings",
+  "description": "Global colors, typography and theme styles for Cetalgen.",
+  "author": "Creanto",
+  "version": "1.0.0",
+  "elementor_version": "4.2.2",
+  "created": "2026-09-16 00:00:00",
+  "thumbnail": false,
+  "site": "https://cetalgen.cz",
+  "site-settings": {
+    "theme": true,
+    "globalColors": true,
+    "globalFonts": true,
+    "themeStyleSettings": true,
+    "generalSettings": true,
+    "experiments": true,
+    "customCode": false,
+    "customIcons": false,
+    "customFonts": false
+  }
+}
