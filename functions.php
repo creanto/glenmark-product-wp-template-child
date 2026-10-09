@@ -7,13 +7,13 @@ if (!defined('ABSPATH')) {
 function glenmark_enqueue_site_specific_assets()
 {
     $font_css_path = get_stylesheet_directory() . '/site-specific/assets/css/fonts.css';
-    $site_specific_dependencies = ['webrev-theme'];
+    $site_specific_dependencies = ['glenmark-theme'];
 
     if (file_exists($font_css_path)) {
         wp_enqueue_style(
             'glenmark-site-specific-fonts',
             get_stylesheet_directory_uri() . '/site-specific/assets/css/fonts.css',
-            ['webrev-theme'],
+            ['glenmark-theme'],
             (string) filemtime($font_css_path)
         );
 
@@ -76,7 +76,7 @@ function cetalgen_elementor_theme_style_scope()
 {
     return '';
 }
-add_filter('wr-pharma-product/elementor/theme_style_scope', 'cetalgen_elementor_theme_style_scope');
+add_filter('gln-pharma-product/elementor/theme_style_scope', 'cetalgen_elementor_theme_style_scope');
 
 function cetalgen_button_background_inherits_theme_style($element)
 {

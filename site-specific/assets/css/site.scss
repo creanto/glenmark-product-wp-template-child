@@ -86,9 +86,9 @@ body {
             color: var(--e-global-color-accent, #D99F22) !important;
         }
 
-        >.webrev-menu-item--hero>a,
-        >.webrev-menu-item--hero>a:hover,
-        >.webrev-menu-item--hero>a:focus-visible {
+        >.glenmark-menu-item--hero>a,
+        >.glenmark-menu-item--hero>a:hover,
+        >.glenmark-menu-item--hero>a:focus-visible {
             color: var(--e-global-color-accent, #D99F22);
             font-weight: 800;
         }
@@ -179,9 +179,9 @@ body {
     }
 }
 
-.webrev-back-to-top {
+.glenmark-back-to-top {
     right: max(1.5rem, env(safe-area-inset-right)) !important;
-    bottom: calc(max(1.5rem, env(safe-area-inset-bottom)) + var(--wr-bottom-notice-height, 0px)) !important;
+    bottom: calc(max(1.5rem, env(safe-area-inset-bottom)) + var(--gln-bottom-notice-height, 0px)) !important;
     left: auto !important;
     border: 0 !important;
     border-radius: 5px !important;
@@ -224,8 +224,8 @@ body {
 }
 
 @media (max-width: 640px) {
-    .webrev-back-to-top {
+    .glenmark-back-to-top {
         right: max(1rem, env(safe-area-inset-right)) !important;
-        bottom: calc(max(1rem, env(safe-area-inset-bottom)) + var(--wr-bottom-notice-height, 0px)) !important;
+        bottom: calc(max(1rem, env(safe-area-inset-bottom)) + var(--gln-bottom-notice-height, 0px)) !important;
     }
 }

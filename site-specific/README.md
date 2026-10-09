@@ -3,7 +3,7 @@
 Use the child theme for changes that belong to one Glenmark website. Keep reusable behavior in the parent theme; keep this site's configuration, styles, templates, and PHP customizations in the child theme.
 
 - `assets/css/site.scss`: SCSS source for site-specific styles.
-- `assets/css/site.css`: compiled stylesheet enqueued after the parent `webrev-theme` stylesheet.
+- `assets/css/site.css`: compiled stylesheet enqueued after the parent `glenmark-theme` stylesheet.
 - `assets/css/fonts.scss` and `assets/css/fonts.css`: font-face source and stylesheet.
 - `assets/font/`: local font files referenced by the font stylesheet.
 - `config/theme-config.php`: overrides for values from the parent `config/theme-config.php`. Nested values are merged with the parent configuration.

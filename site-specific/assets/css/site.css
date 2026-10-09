@@ -66,9 +66,9 @@ body {
 .site-header .nav-menu .current_page_item > a {
   color: var(--e-global-color-accent, #D99F22) !important;
 }
-.site-header .nav-menu > .webrev-menu-item--hero > a,
-.site-header .nav-menu > .webrev-menu-item--hero > a:hover,
-.site-header .nav-menu > .webrev-menu-item--hero > a:focus-visible {
+.site-header .nav-menu > .glenmark-menu-item--hero > a,
+.site-header .nav-menu > .glenmark-menu-item--hero > a:hover,
+.site-header .nav-menu > .glenmark-menu-item--hero > a:focus-visible {
   color: var(--e-global-color-accent, #D99F22);
   font-weight: 800;
 }
@@ -148,20 +148,20 @@ body {
     font-size: 1em;
   }
 }
-.webrev-back-to-top {
+.glenmark-back-to-top {
   right: max(1.5rem, env(safe-area-inset-right)) !important;
-  bottom: calc(max(1.5rem, env(safe-area-inset-bottom)) + var(--wr-bottom-notice-height, 0px)) !important;
+  bottom: calc(max(1.5rem, env(safe-area-inset-bottom)) + var(--gln-bottom-notice-height, 0px)) !important;
   left: auto !important;
   border: 0 !important;
   border-radius: 5px !important;
   background: rgba(14, 52, 121, 0.35) !important;
   color: #ffffff !important;
 }
-.webrev-back-to-top:hover, .webrev-back-to-top:focus-visible {
+.glenmark-back-to-top:hover, .glenmark-back-to-top:focus-visible {
   background: var(--e-global-color-primary, #494b9a) !important;
   color: #ffffff !important;
 }
-.webrev-back-to-top svg {
+.glenmark-back-to-top svg {
   position: absolute !important;
   top: 50% !important;
   left: 50% !important;
@@ -174,7 +174,7 @@ body {
   opacity: 1 !important;
   transform: translate(-50%, -50%) !important;
 }
-.webrev-back-to-top path {
+.glenmark-back-to-top path {
   fill: none !important;
   stroke: #ffffff !important;
   stroke-width: 2 !important;
@@ -188,8 +188,10 @@ body {
   }
 }
 @media (max-width: 640px) {
-  .webrev-back-to-top {
+  .glenmark-back-to-top {
     right: max(1rem, env(safe-area-inset-right)) !important;
-    bottom: calc(max(1rem, env(safe-area-inset-bottom)) + var(--wr-bottom-notice-height, 0px)) !important;
+    bottom: calc(max(1rem, env(safe-area-inset-bottom)) + var(--gln-bottom-notice-height, 0px)) !important;
   }
-}/*# sourceMappingURL=site.css.map */
+}
+
+/*# sourceMappingURL=site.css.map */
